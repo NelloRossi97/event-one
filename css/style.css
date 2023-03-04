@@ -35,6 +35,7 @@ header{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 8rem;
+    margin-left: -0.65rem;
 }
 
 /* utilities */
