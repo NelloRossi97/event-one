@@ -1,0 +1,28 @@
+:root{
+    --eo-primary: #AB05F2;
+    --eo-secondary: #36D99D;
+    --eo-neutral: #F2F2F2;
+    --eo-dark: #262626;
+}
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: var(--eo-dark);
+}
+
+
+.eo-primary{
+    color: var(--eo-primary);
+}
+
+.eo-secondary{
+    color: var(--eo-secondary);
+}
+
+.eo-neutral{
+    color: var(--eo-neutral);
+}
+
+.eo-dark{
+    color: var(--eo-dark);
+}
