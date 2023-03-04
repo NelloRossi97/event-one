@@ -25,6 +25,18 @@ header{
     background-position: center;
     background-size: 100%;
 }
+.hero{
+    height: 100%;
+}
+
+#hero h1{
+    background-color: red;
+    background-image: linear-gradient(to right, #36D99D,#F2F2F2, #AB05F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+}
+
 /* utilities */
 .eo-primary{
     color: var(--eo-primary);
