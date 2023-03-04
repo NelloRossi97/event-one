@@ -29,6 +29,18 @@ header{
     height: 100%;
 }
 
+#hero button a{
+    width: 20rem;
+}
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to right, #36D99D, #FFFFFF);
+}
+/* .border-gradient-button {
+    border-image-source: linear-gradient(to right, #36D99D, #FFFFFF);
+} */
 #hero h1{
     background-color: red;
     background-image: linear-gradient(to right, #36D99D,#F2F2F2, #AB05F2);
@@ -37,7 +49,10 @@ header{
     font-size: 8rem;
     margin-left: -0.65rem;
 }
-
+#hero h3{
+    font-size: 3.5rem;
+    width: 50%;
+}
 /* utilities */
 .eo-primary{
     color: var(--eo-primary);
