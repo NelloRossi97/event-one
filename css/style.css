@@ -20,7 +20,7 @@ header{
 }
 
 #hero{
-    background-image: linear-gradient(to right, rgba(26,26,26,1) 0%,rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.7) 100%), url(../img/ticket-one-hero.jpg);
+    background-image: linear-gradient(to right, rgba(26,26,26,1), rgba(0,0,0,0.7)), url(../img/ticket-one-hero.jpg);
     height: 100vh;
     background-position: center;
     background-size: 100%;
