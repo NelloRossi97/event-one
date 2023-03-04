@@ -10,7 +10,22 @@ body{
     background-color: var(--eo-dark);
 }
 
+header{
+    height: 5rem;
+    background-color: rgba(26,26,26,0.5);
+}
 
+.img-logo{
+    width: 3rem;
+}
+
+#hero{
+    background-image: linear-gradient(to right, rgba(26,26,26,1) 0%,rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.7) 100%), url(../img/ticket-one-hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: 100%;
+}
+/* utilities */
 .eo-primary{
     color: var(--eo-primary);
 }
@@ -25,4 +40,16 @@ body{
 
 .eo-dark{
     color: var(--eo-dark);
+}
+
+.eo-bg-secondary{
+    background-color: var(--eo-secondary);
+}
+
+.eo-bg-primary{
+    background-color: var(--eo-primary);
+}
+
+.letter-spacing{
+    letter-spacing: 0.2rem;
 }
