@@ -36,11 +36,24 @@ header{
     border: 10px solid;
     border-image-slice: 1;
     border-width: 4px;
+    
+}
+.border-gradient-button{
     border-image-source: linear-gradient(to right, #36D99D, #FFFFFF);
 }
-/* .border-gradient-button {
-    border-image-source: linear-gradient(to right, #36D99D, #FFFFFF);
-} */
+.border-gradient-description{
+    border-image-source: linear-gradient(to right, #AB05F2 35%, #262626 51% );
+}
+
+#description h2{
+    font-size: 5rem;
+}
+#description img{
+    right: 0;
+}
+#learn img{
+    left: 0;
+}
 #hero h1{
     background-color: red;
     background-image: linear-gradient(to right, #36D99D,#F2F2F2, #AB05F2);
