@@ -44,12 +44,16 @@ header{
 .border-gradient-description{
     border-image-source: linear-gradient(to right, #AB05F2 35%, #262626 51% );
 }
+.border-gradient-learn{
+    border-image-source: linear-gradient(to left, #AB05F2 35%, #262626 51% );
+}
 
 #description h2{
     font-size: 5rem;
 }
 #description img{
     right: 0;
+    border: 15px solid var(--eo-secondary);
 }
 #learn img{
     left: 0;
@@ -65,6 +69,15 @@ header{
 #hero h3{
     font-size: 3.5rem;
     width: 50%;
+}
+
+.section-img{
+    width: 35vw;
+    height: 25vw;
+}
+
+#footer-city{
+    margin-top: -1.5rem;
 }
 /* utilities */
 .eo-primary{
